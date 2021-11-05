@@ -1,0 +1,43 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  padding: 10px;
+}
+
+.dialogsItems {
+  padding: 10px;
+}
+
+.dialog a {
+  text-decoration: none;
+}
+
+.messages {
+  padding-top:20px;
+  border: 20px;
+}
+
+/* .message {
+    
+} */
+
+.active {
+  color: rgb(138, 58, 196);
+}
+
+.dialog a.activeLink {
+  color: rgb(158, 80, 156);
+}
+
+.dialog a {
+  color: honeydew;
+  text-decoration: none;
+}
+
+.textareaItem {
+  padding-top: 50px;
+}
+
+.message {
+  padding: 5px;
+}
